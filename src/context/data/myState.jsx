@@ -39,7 +39,7 @@ function myState(props) {
 
     const addProduct = async () => {
         if (products.title == null || products.price == null || products.imageUrl == null || products.category == null || products.description == null) {
-            return toast.error("All fields are required")
+            return toast.error("all fields are required")
         }
 
         setLoading(true)
@@ -155,8 +155,6 @@ function myState(props) {
             setLoading(false)
         }
     }
-
-    
 
     const [user, setUser] = useState([]);
 
