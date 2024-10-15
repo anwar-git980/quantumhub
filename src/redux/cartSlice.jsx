@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { initializeAnalytics } from 'firebase/analytics';
+// import { initializeAnalytics } from 'firebase/analytics';
 const initialState = JSON.parse(localStorage.getItem('cart')) ?? [];
 
 

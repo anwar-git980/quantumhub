@@ -132,7 +132,8 @@ function Cart() {
         }
 
         try {
-          const result = addDoc(collection(fireDB, "orders"), orderInfo)
+          const result = addDoc(collection(fireDB, 'order'), orderInfo);
+          addDoc(orderRef, orderInfo);
         } catch (error) {
           console.log(error)
         }
@@ -154,7 +155,7 @@ function Cart() {
       <div className="h-screen bg-gray-100 pt-5 " style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', color: mode === 'dark' ? 'white' : '', }}>
         <h1 className="mb-10 text-center text-2xl font-bold">Cart Items</h1>
         <div className="mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6 xl:px-0 ">
-          <div className="rounded-lg md:w-2/3 overflow-y-auto">
+          <div className="rounded-lg md:w-2/3 overflow-y-auto max-h-[75vh]">
             {cartItems.map((item, index) => {
               const { title, price, description, imageUrl } = item;
               return (
