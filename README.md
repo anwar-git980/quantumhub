@@ -81,8 +81,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 For inquiries, suggestions, or collaborations:
-- Email: your.email@example.com
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)
+- Email: shaikh.anwar.dev@gmail.com
+- GitHub: https://github.com/anwar-git980
 
 ---
 💡 *Quantum Hub - Elevating Your Tech Shopping Experience!*
